@@ -1,4 +1,4 @@
-# Object-Oriented Programming Basics
+# Object-Oriented Programming Basic
 
 ## Business Requirements:
 ### Practice 1
@@ -24,7 +24,7 @@ Declare `Student` class derived from `Person`,  except `id`, `name` and `age`, i
 
 But the `class` property is not a number but an object, write a `Class` class with property `number` and `leader`, and property `leader` should not appear in constructor.
 
-Refer to test cases, you should pass a `Class` object when construct a student. Class has a method called `assignLeader` which receive a student as parameter. It means to assign the student as the class leader. When Tom is a class leader, call`tom.introduce()` should return a message:
+Refer to the test cases, you should pass a `Class` object when construct a Student. The Class has a method called `assignLeader` which receives a Student as parameter. It means to assign the Student as the class leader. When Tom is a class leader, call`tom.introduce()` should return a message:
 `My name is Tom. I am 21 years old. I am a Student. I am Leader of Class 2.`
 If Tom is not a class leader, return the old message.
 
@@ -39,7 +39,7 @@ The string below of all subclasses of `Person` class should be from `person.intr
 
 ### Practice 3
 
-Base on `practice 2`, add new requirements:
+Base on `practice 2`, fulfill the following requirement:
 
 Add method `appendMember` in class `Class` which receive a student instance as parameter, means append this student to the class.
 
@@ -58,20 +58,20 @@ Teacher has a method `isTeaching`, receive a student as a parameter and return a
 When a student join a class, the teacher who is teaching the class should print:
 `I am Tom. I know Jerry has joined Class 2.`
 
-When a student assigned as a class leader, the teacher who is teaching the class should print:
+When a student is assigned as a class leader, the teacher who is teaching the class should print:
 `I am Tom. I know Jerry becomes Leader of Class 2.`
 
 ## Practice Challenges:
 * Apply ES6 OO feature 
 * Declare class in `prototype` manner
 * Extend a class
-* Override a method in parent class
+* Override a method in the parent class
 * Simple OO implementation via Javascript
 
 ## Practice Requirements:
 * Pass all tests
-* Commit frequently with readable commit messages via Git
-* Coding with shortcuts
+* Commit frequently with readable commit comment via Git
+* Coding with keyboard shortcuts
 
 ## Practice Output:
 Modify code under `main` directory to pass all tests under `spec` directory according to the requirements.
@@ -81,7 +81,7 @@ Node Js
 NPM
 
 ## How to begin：
-Open your terminal, change into any path and clone this repository:
+Open your terminal, change to any path and clone this repository:
 ```
 git clone repo_of_this_template
 ```
@@ -103,7 +103,7 @@ spec  //Test code, stands for specifications
 src   //Source code
 ```
 
-## Resources
+## Learning Resource
 1. [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 2. [JavaScript Code Camp](https://www.freecodecamp.org/challenges/comment-your-javascript-code)
 3. [JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
