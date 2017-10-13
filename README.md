@@ -83,7 +83,7 @@ NPM
 ## How to begin：
 Open your terminal, change to any path and clone this repository:
 ```
-git clone repo_of_this_template
+git clone `this repo site`
 ```
 Install dependencies:
 ```
