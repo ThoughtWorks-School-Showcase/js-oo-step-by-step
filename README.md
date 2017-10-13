@@ -1,6 +1,6 @@
 # Object-Oriented Programming Basic
 
-## Business Requirements:
+## Business Requirements:
 ### Practice 1
 Declare a class called `Person` with properties `name` and `age`, and a method called `introduce`, the method should return a string:
 `My name is Tom. I am 21 years old.`
